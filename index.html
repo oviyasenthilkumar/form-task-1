@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<title>ALL FORM TYPES AND ATTRIBUTES</title>
+<style>
+	form{
+		padding:30px;
+	}
+	div{
+		padding:20px;
+	}
+	label{
+		padding-right:5rem;
+	}
+	
+	
+
+
+</style>
+</head>
+<body>
+<form action="">
+	<h2>ALL FORM TYPES AND ATTRIBUTES</h2>
+	<p>THIS FORM RELATED TO SITE VISIT </p>
+	<div>
+		<label for="name"> enter your name </label>
+		<input type="text" id="name" required size="30">
+	</div>
+	<div>
+		<label for="email"> enter ur mail id </label>
+		<input type="email" id="email" size="30">
+	</div>
+	<div>
+		<label for="psw"> enter your password </label>
+		<input type="password" id="psw" size="30" placeholder="hello@123!" minlength="5" maxlength="8">
+	</div>
+	<div>
+		<label for="mobile"> enter mobile no. </label>
+		<input type="tel" id="mobile" maxlength="14" size="30" pattern="{2}[0-9]-{10}[0-9]" placeholder="+91-8667636484">
+	</div>
+	
+	
+	<div>
+		<label for="member">no. of members:</label>
+		<input id="member" size="30" type="number" max="4">
+	</div>
+	<div>
+		<label for="grp">no. of groups:</label>
+		<input id="grp" size="30" type="number" step="2" max="4">
+	</div>
+	<div>
+		<label for="proof"> attach your proof here:</label>
+		<input id="proof" multiple type="file" name="img" required>
+	</div>
+	<div>
+		<label for="graduate"> graduated in</label>
+		<input type="text" id="graduate" name="graduate" value="civil" readonly>
+	</div>
+	<div>
+		<label for="date"> date</label>
+		<input type="text" id="date" name="date" value="12/12/2023" disabled>
+	</div>
+	<div>
+		<label for="img"> photo:</label>
+		<input type="image" src="images/fam.jpg" alt="file formate is incorrect" height="50px" width="60px" id="img" >
+	</div>
+	<div>
+		<label for="today"> date</label>
+		<input type="date" id="today" >
+	</div>
+	<div>
+		<label for="time"> time </label>
+		<input type="time" id="time">
+	</div>
+	<div>
+		<label for="week"> week</label>
+		<input type="week" id="week">
+	</div>
+	<div>
+		<label for="month"> month</label>
+		<input type="month" id="month">
+	</div>
+	<div>
+		<label for="search">search about data analyst</label>
+		<input type="search" id="search">
+	</div>
+	<div>
+		<label for="url"> url: </label>
+		<input type="url" id="url">
+	</div>
+	<div>
+		<label for="range">range:</label>
+		<input type="range" id="range">
+	</div>
+	<div>
+		<label for="colour"> colour </label>
+		<input type="color" id="colour" name="colour" value="#400080">
+	</div>
+	<div>
+	
+	<div>		
+		<input type="submit">
+		<input type="reset">
+		<input type="button" value="click">
+	</div>
+
+</form>
+</body>
+</html>
